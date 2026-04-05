@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #020617;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #cbd5f5;
+      font-size: 0.9rem;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #38bdf8;
+      color: #020617;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+
+    .projects .project {
+      margin-bottom: 15px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .hero h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="YOUR_PHOTO_LINK_HERE" alt="Profile Photo"/>
+  <h2>Hello, I'm Your Name</h2>
+  <p>Short professional tagline from your resume</p>
+</section>
+
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      Paste your summary/about section from resume here. Describe yourself, your goals, and what you do.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Python</span>
+      <!-- Add more -->
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="card">
+    <h2>Experience</h2>
+    <p><strong>Job Title</strong> - Company Name</p>
+    <p>Duration</p>
+    <p>• Key achievement or responsibility</p>
+    <p>• Key achievement or responsibility</p>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="card projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project Name</h3>
+      <p>Short description of the project.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Project Name</h3>
+      <p>Short description of the project.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+
+    <div>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
